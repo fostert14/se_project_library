@@ -355,6 +355,8 @@ p {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  gap: 120px;
 }
 
 .about__title {
@@ -363,6 +365,7 @@ p {
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  max-width: 154px;
 }
 
 .about__content {
@@ -370,16 +373,23 @@ p {
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  z-index: 1;
 }
 
-~~.about__paragraph {
+.about__paragraph {
   margin: 0 0 32px;
 }
-~~.about__circle {
+.about__circle {
   background-color: #2f80ed;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  left: -91px;
+  top: -121px;
 }
 
 .footer {
