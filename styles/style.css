@@ -238,6 +238,7 @@ p {
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(/images/staff_picks_background.jpg);
 }
 
 .staff__title {
@@ -245,6 +246,7 @@ p {
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -252,15 +254,18 @@ p {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0;
+  color: #fff;
 }
 
 .staff__selections {
-  max-width: 760px;
   display: flex;
   flex-wrap: wrap;
+  max-width: 760px;
   justify-content: center;
   gap: 40px;
+  list-style-type: none;
+  padding: 68px 0 0 0;
+  margin: 0;
 }
 
 .card {
@@ -293,7 +298,7 @@ p {
 }
 
 .card__footer {
-  margin: 0;
+  margin: auto 0 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -317,11 +322,13 @@ p {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step {
-  /* Add styles */
+  width: 220px;
 }
 
 .step__title {
