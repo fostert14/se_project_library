@@ -272,7 +272,7 @@ p {
   color: #fff;
 }
 
-.staff__selections {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   max-width: 760px;
